@@ -1,2 +1,2 @@
 # Update
-A simple update script for ubuntu written in bash
+A simple update script and flatpak installer for ubuntu written in bash
