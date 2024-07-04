@@ -1,2 +1,2 @@
 # Update
-A simple update script written in bash
+A simple update script for ubuntu written in bash
