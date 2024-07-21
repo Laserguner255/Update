@@ -10,7 +10,7 @@ sudo snap refresh
 
 # Clamav database
 if dpkg -s clamav | grep -q 'install ok installed' ; then
-    freshclam
+    sudo freshclam
 else
     echo ""
 fi
