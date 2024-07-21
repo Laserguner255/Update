@@ -8,6 +8,13 @@ sudo apt autoremove -y
 #update snaps
 sudo snap refresh
 
+# Clamav database
+if dpkg -s clamav | grep -q 'install ok installed' ; then
+    freshclam
+else
+    echo ""
+fi
+
 # Prompt for reboot
 printf 'Would you like to reboot? (r/s/n)? '
 read answer
