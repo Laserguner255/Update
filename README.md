@@ -1,5 +1,5 @@
 # Update
-A simple update script and flatpak installer for ubuntu   & Debian(untested) written in bash (The setup wizard will not work if script is renamed)
+A simple update script and flatpak installer for the apt package manager written in bash (The setup wizard will not work if script is renamed)
 
 Currently support: apt, snap, flatpak, devkitPro and clamav/tk
 
